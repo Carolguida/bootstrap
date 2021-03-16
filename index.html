@@ -16,6 +16,9 @@
             height: 50px;
 
         }
+        html {
+            scroll-behavior: smooth;
+        }
     </style>
 
     <title>The Union Winery</title>
@@ -34,10 +37,10 @@
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link text-light" href="#menu">Home <span class="sr-only">(página atual)</span></a>
+                    <a class="nav-link text-light" href="#menu" >Home <span class="sr-only">(página atual)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#sobreNos">Sobre nós</a>
+                    <a class="nav-link text-light" href="#sobreNos" >Sobre nós</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-light" href="#contato">Contato</a>
@@ -109,7 +112,8 @@
         <div class="container">
             <h1 class="display-4">Aqui você encontra os melhores especialistas para te ajudar a garantir a melhor
                 compra.</h1>
-            <p class="lead">Diversas opções de pagamentos. Incluse, você pode pagar no cartão em até 12X sem juros!</p>
+            <p class="lead">Além disso, possuímos diversas opções de pagamentos. Incluse, você pode pagar no cartão em
+                até 12X sem juros!</p>
         </div>
     </div>
     <!-- /Jumbotron -->
@@ -164,7 +168,14 @@
         <div class="row mb-5">
             <div class="col-md-6 justify-content-around text-justify bg-light">
                 <h3 class="text-danger">The Union Winery</h3>
-                <p> Vinho é, genericamente, uma bebida alcoólica produzida por fermentação do sumo de uva. Na União Europeia, o vinho é legalmente definido como o produto obtido exclusivamente por fermentação parcial ou total de uvas frescas, inteiras ou esmagadas, ou de mostos </p>
+                <hr>
+                <h6 class="text-warning">Entenda mais sobre a The Union Winery: </h6>
+                <p> 
+                    Primeiramente, você sabe da onde vem os vinhos?
+                    Vinho é, genericamente, uma bebida alcoólica produzida por fermentação do sumo de uva. Na União
+                    Europeia, o vinho é legalmente definido como o produto obtido exclusivamente por fermentação parcial
+                    ou total de uvas frescas, inteiras ou esmagadas, ou de mostos 
+                </p>
                 <p>
                     A The Union Winery trabalha com os melhores produtos selecionados para melhor atendê-los. Fernanda,
                     nossa consultora, esclarece todas as suas possíveis dúvidas sobre vinhos. Assista o vídeo ao lado e
@@ -215,7 +226,7 @@
                     </div>
 
                     <div class="form-group d-flex justify-content-end">
-                        <button class="btn btn-outline-secondary">Enviar</button>
+                        <button class="btn btn-outline-danger">Enviar</button>
                     </div>
                 </form>
             </div>
@@ -257,6 +268,8 @@
         </div>
     </footer>
     <!-- /Rodapé -->
+
+    <script src="assets/js/script.js"></script>
 
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
